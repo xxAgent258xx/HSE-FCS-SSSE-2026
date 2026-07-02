@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d51d1ae4-1b2b-4f03-8a33-dcb4d5933275">
+  <producedTypes>
+    <objectType typeId="583981ea-82dd-4810-9e4d-15306270f74b" valueTypeId="9463dd34-1d0d-470c-a02b-57e3423cb28b"/>
+    <refType typeId="6a4d0b36-9373-4d96-b9b0-d215e65fb18a" valueTypeId="ead7b2c0-0262-43f0-bd0b-ca33410bb872"/>
+    <selectionType typeId="23046d65-dfab-48eb-830c-67168e9029e6" valueTypeId="6afbb9e2-61c6-461d-9324-4af2ad534e08"/>
+    <listType typeId="332b3b1c-596a-4d62-9290-21b54cfcd382" valueTypeId="7d9a6435-01e9-4685-bb2d-ae98f8044687"/>
+    <managerType typeId="277ac769-b258-480e-82fb-7b7bdeda14d7" valueTypeId="f9c12cec-9eef-419d-9a8b-b51748252e52"/>
+  </producedTypes>
+  <name>Мероприятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мероприятия</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Мероприятия.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Мероприятия.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b0cde77c-fd0b-493e-afe8-128a71e2a4cf">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="566eda97-d786-4ea2-a75f-b1f0c37ab527">
+    <name>ГлавныйОрганизатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Главный организатор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="425ca705-5f3f-47d4-82be-497b3f26ad86">
+    <name>ЧислоУчастников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число участников</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="781c9adf-16aa-4ae3-ad2b-bfe98640f1d5">
+    <name>ОбщедоступнаяРегистрация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общедоступная регистрация</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="42178ac2-8da0-4e3d-843d-cda8f664f08e">
+    <producedTypes>
+      <objectType typeId="bfaaa7ed-0bfd-4fb8-a077-e21b3596ac8e" valueTypeId="8863a189-5884-4059-a8b3-553b85c31ac2"/>
+      <rowType typeId="e756d077-9fdb-46ee-bbc9-c6104855e0fb" valueTypeId="29c6551d-5cc2-422d-832a-c293f9e358e5"/>
+    </producedTypes>
+    <name>СписокУчастников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список участников</value>
+    </synonym>
+    <attributes uuid="56308b58-7f07-4daf-8cb2-bf07664baa96">
+      <name>Участник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Участник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+  <tabularSections uuid="2c43abf5-fa4b-41c2-9cbf-af7fbe8a20e8">
+    <producedTypes>
+      <objectType typeId="209c60dd-7cd7-4621-83d5-a7276ffc14ce" valueTypeId="0e198d62-a1c3-42af-bcbe-80089eb600dd"/>
+      <rowType typeId="62f07ed0-4a1c-414c-988b-722932e557cb" valueTypeId="4c7e226e-bb75-4442-9373-90993fa2b5a7"/>
+    </producedTypes>
+    <name>Распределения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распределения</value>
+    </synonym>
+    <attributes uuid="f239177e-18e9-46c1-85d5-a7f0b6f572fa">
+      <name>Распределение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Распределение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Распределения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0e89e7bf-08db-4e81-836e-181853cc305c">
+      <name>Аудитория</name>
+      <synonym>
+        <key>ru</key>
+        <value>Аудитория</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Аудитории</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7de37452-35f1-4e06-affc-0fdcf85d3424">
+      <name>ВремяНачала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время начала</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="65c2720c-7d5e-4eb3-a244-0256223a7351">
+      <name>ВремяОкончания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время окончания</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fcbc124a-61ab-4fd8-9922-f2c41bcbfc85">
+      <name>Ответственный</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ответственный</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Catalog>

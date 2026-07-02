@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="287e25cc-4eef-4382-ab6b-ce8c6c06f462">
+  <producedTypes>
+    <objectType typeId="e22dfd5b-8a3e-4e0a-8cfe-6d836986557a" valueTypeId="6ae844b4-aa19-461f-b0b8-9c58ca960d16"/>
+    <refType typeId="a0d614c8-692e-413a-8050-949669b8f0e5" valueTypeId="d8e995c4-21be-4baa-8b12-c58f3683dcef"/>
+    <selectionType typeId="4f46ae51-c7c5-4a0f-bfa7-291813333467" valueTypeId="2fe30981-3e52-463e-a636-e3721c123502"/>
+    <listType typeId="8a584628-f051-47f9-b769-cfdc0299c284" valueTypeId="804a47b4-cb7c-464a-b6b8-35d28c44b86a"/>
+    <managerType typeId="f3ba0a86-abf9-4809-b5fa-b686ab974fee" valueTypeId="8818a1b2-c267-4c27-9ebd-f399d24dc290"/>
+  </producedTypes>
+  <name>Чаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чаты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Чаты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Чаты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="bcdc5a63-f7a9-4efe-b51f-ada2ee0aa446">
+    <name>Организатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организатор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e003f18b-00c9-431e-a0dd-1854435be81b">
+    <name>Участник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Участник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="f6f12041-bcdc-4d0e-85d2-ada67455b443">
+    <producedTypes>
+      <objectType typeId="7bbe6abb-02d4-4786-91af-3a0683a55125" valueTypeId="d13fcbaf-52dc-415a-a8c2-d00a8381c825"/>
+      <rowType typeId="7f47564f-9429-46eb-ada2-c2b6ff62b771" valueTypeId="4a968962-bab7-4f58-ba01-a6b43d7fd48e"/>
+    </producedTypes>
+    <name>Сообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщения</value>
+    </synonym>
+    <attributes uuid="7ad6befb-efb4-4823-85b9-ccbc505e9911">
+      <name>Отправитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отправитель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="85f909bd-b296-4940-ad6f-ef911a7952a3">
+      <name>Текст</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текст</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <multiLine>true</multiLine>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c6b891f6-ac5e-454b-81f9-57e5fe06b072">
+      <name>ВремяОтправки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время отправки</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7b13566f-56ae-412a-8aac-0cef1c266ded">
+      <name>Статус</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус</value>
+      </synonym>
+      <type>
+        <types>EnumRef.СтатусыСообщений</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Catalog>

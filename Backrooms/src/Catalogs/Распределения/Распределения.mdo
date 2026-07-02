@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e84f3f4b-9e64-42e8-99c1-6aca1956b9ae">
+  <producedTypes>
+    <objectType typeId="dd474d0e-ed84-45c5-a389-1f346a60e397" valueTypeId="515ba820-c150-4edd-b1c2-ab2d5fc5e52d"/>
+    <refType typeId="254802a5-7a9f-4ed6-8ac3-45b828a8b49e" valueTypeId="cf2066a7-cbe3-49df-80e8-6d5343bd2c4b"/>
+    <selectionType typeId="30a7d9ce-0d6f-4e76-a2d6-5d83803e476e" valueTypeId="d862c9f5-45b3-4788-9a23-79bcf4da6eff"/>
+    <listType typeId="4b36805c-5ea0-40b0-b742-dd24e0450986" valueTypeId="cacd9208-0827-4e28-a914-f0bb467533a3"/>
+    <managerType typeId="cd9ac14f-3051-4a9c-bfee-3d945762aab3" valueTypeId="0856e525-e628-4013-9f92-6166430fcafc"/>
+  </producedTypes>
+  <name>Распределения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Распределения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Распределения.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Распределения.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="3ba548dd-d9a7-4431-b253-8cae2301fb11">
+    <name>Мероприятие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мероприятие</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Мероприятия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="a2d70ad0-7cb6-4408-93e2-15790c5baa4e">
+    <producedTypes>
+      <objectType typeId="3f090dba-59d9-44c8-9b4d-6b5d86be6020" valueTypeId="a5f9838a-fd17-471d-83f1-3a1f6cfb9dc7"/>
+      <rowType typeId="8ce80c2c-ccf0-44e3-94a1-5c190c519dbc" valueTypeId="3faa0867-47a7-4576-b0f5-182096a6479d"/>
+    </producedTypes>
+    <name>Участники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Участники</value>
+    </synonym>
+    <attributes uuid="5cff86d4-9fc3-4b44-8876-0108f8ec237a">
+      <name>Участник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Участник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Catalog>

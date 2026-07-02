@@ -42,10 +42,16 @@
   <sessionParameters>SessionParameter.Пользователь</sessionParameters>
   <catalogs>Catalog.Аудитории</catalogs>
   <catalogs>Catalog.ЗданияОрганизации</catalogs>
+  <catalogs>Catalog.Мероприятия</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Распределения</catalogs>
+  <catalogs>Catalog.Чаты</catalogs>
   <documents>Document.ЗакрытиеАудитории</documents>
+  <documents>Document.ЗаявкаНаМероприятие</documents>
   <enums>Enum.ДниНедели</enums>
+  <enums>Enum.СтатусыЗаявок</enums>
+  <enums>Enum.СтатусыСообщений</enums>
   <enums>Enum.ТипыАккаунтов</enums>
   <paletteColors>PaletteColor.Фиолетовый</paletteColors>
 </mdclass:Configuration>

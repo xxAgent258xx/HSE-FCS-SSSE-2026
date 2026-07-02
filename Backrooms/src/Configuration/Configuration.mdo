@@ -40,6 +40,10 @@
     <languageCode>ru</languageCode>
   </languages>
   <sessionParameters>SessionParameter.Пользователь</sessionParameters>
+  <roles>Role.Администратор</roles>
+  <roles>Role.Организатор</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.Участник</roles>
   <catalogs>Catalog.Аудитории</catalogs>
   <catalogs>Catalog.ЗданияОрганизации</catalogs>
   <catalogs>Catalog.Мероприятия</catalogs>

@@ -29,6 +29,7 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <interfaceCompatibilityMode>Version8_5</interfaceCompatibilityMode>
   <compatibilityMode>8.5.1</compatibilityMode>
   <languages uuid="813af128-0daa-485f-a087-f53bd8fdb1bc">
     <name>Русский</name>
@@ -39,5 +40,12 @@
     <languageCode>ru</languageCode>
   </languages>
   <sessionParameters>SessionParameter.Пользователь</sessionParameters>
+  <catalogs>Catalog.Аудитории</catalogs>
+  <catalogs>Catalog.ЗданияОрганизации</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <documents>Document.ЗакрытиеАудитории</documents>
+  <enums>Enum.ДниНедели</enums>
+  <enums>Enum.ТипыАккаунтов</enums>
+  <paletteColors>PaletteColor.Фиолетовый</paletteColors>
 </mdclass:Configuration>

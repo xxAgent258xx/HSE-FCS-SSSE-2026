@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fcf7e49e-cdaf-4e00-a7bf-e3d6fcfbae44">
+  <producedTypes>
+    <objectType typeId="ac5b7e54-84db-4804-ae46-f083952e2e26" valueTypeId="9bc664f1-006a-4daf-a3be-8a9cfec0650a"/>
+    <refType typeId="9c354044-5568-41c6-a958-7bfc72e5a80a" valueTypeId="a2a01859-35b6-44e9-87de-b4fa26ec6fd5"/>
+    <selectionType typeId="b233b59e-2017-4300-a5fd-c0238afbc26a" valueTypeId="9e410a8d-1f81-4d9c-b19c-9e72a8c35bc3"/>
+    <listType typeId="d6819467-1489-4856-8c81-56dd8201254f" valueTypeId="a64308d0-0a85-401f-a3a1-660180588ff9"/>
+    <managerType typeId="1cbf2c50-25db-4997-9de5-80302c788a35" valueTypeId="7fd7e252-0ea4-46fa-9416-511f5db73208"/>
+  </producedTypes>
+  <name>Аудитории</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аудитории</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Аудитории.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Аудитории.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="43bb594a-559d-4da4-ac3e-176700a99818">
+    <name>Здание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Здание</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЗданияОрганизации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f4d5460b-d7ec-4dce-a7c9-8bd23e9c6f66">
+    <name>Вместимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вместимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8760d98d-ca76-463e-a5ee-3082006cecc2">
+    <name>Компьютеров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компьютеров</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a53171b6-8d62-46ab-b17f-ccf2b3bdd67e">
+    <name>ДосокИПроекторов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Досок и проекторов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7b5fce19-6222-4c13-a3de-9859a6c29a7f">
+    <name>Микрофонов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Микрофонов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="07c24d44-8391-41ec-bf9d-226d5fa14a61">
+    <name>СтуденческийКоворкинг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Студенческий коворкинг</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="be3757dd-2108-471c-b96e-9a18c70865fa">
+    <name>ОбщедоступныйКоворкинг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общедоступный коворкинг</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="e9ce2f07-424a-4a8b-ba28-72decfbb8d5e">
+    <producedTypes>
+      <objectType typeId="39a84d69-0dc0-4b96-9b68-6e14caad2fb0" valueTypeId="310c1b88-7ad6-49ff-87a9-7e211f630351"/>
+      <rowType typeId="a69b79de-c2b0-46ca-b6d5-d3a9ce12dcf0" valueTypeId="100fa054-0344-4615-8bcf-6414fb71454e"/>
+    </producedTypes>
+    <name>ГрафикРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>График работы</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="8a73c1f9-a9c2-40f3-8996-cdf959525355">
+      <name>ДеньНедели</name>
+      <synonym>
+        <key>ru</key>
+        <value>День недели</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ДниНедели</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0e991634-aeec-453a-a7b5-d47e935b4262">
+      <name>ВремяОткрытия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время открытия</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Time</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6a264b06-d9ff-4702-a232-9922d925cc2b">
+      <name>ВремяЗакрытия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время закрытия</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Time</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Catalog>

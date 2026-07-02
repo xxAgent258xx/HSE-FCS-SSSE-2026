@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67360ebe-8428-4118-9bad-9bf834b31a53">
+  <producedTypes>
+    <objectType typeId="4daca41b-7358-493b-8ed0-2bd269a82cf8" valueTypeId="7fe83f11-4c6c-4e92-bc91-e26da27915c7"/>
+    <refType typeId="f7b75267-fa37-4bd5-9e94-0bd476573f34" valueTypeId="72238d92-0693-4a26-bcc8-9a4df2e4880a"/>
+    <selectionType typeId="f633c5ae-4e38-4d14-ad04-499bb2e7aa0d" valueTypeId="98cf808b-80f9-4c28-995b-cb065ff1274a"/>
+    <listType typeId="2784c5b4-9efa-422d-92a9-ced1179b0e3c" valueTypeId="1d8cafe9-b7e4-4e75-bfc3-b2357d2cd1cc"/>
+    <managerType typeId="09d150ac-e8d5-446b-b15b-3367a901f1df" valueTypeId="e0700f80-8b89-4eaf-92db-cbfb0baa15d9"/>
+  </producedTypes>
+  <name>ЗданияОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Здания организации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЗданияОрганизации.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ЗданияОрганизации.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="adea701f-6d40-44dd-a48e-23fcc8ffdbe4">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a64f6f25-35e1-480b-90ae-51ba3cdc16bd">
+    <name>Город</name>
+    <synonym>
+      <key>ru</key>
+      <value>Город</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <mask>г. NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="e5f21d90-cd4f-44e2-98c7-2dc060afcc4b">
+    <producedTypes>
+      <objectType typeId="175ad4e6-5adf-42c4-9c15-49e01574f20a" valueTypeId="7592aafc-e9c7-428f-85fd-3bb3b051f6b8"/>
+      <rowType typeId="a37ecadb-5014-4479-ad6f-70555cdb43e9" valueTypeId="dae7b631-b459-4876-ae0a-36ca55ca2677"/>
+    </producedTypes>
+    <name>ВремяРаботыПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время работы по умолчанию</value>
+    </synonym>
+    <attributes uuid="8350e7f9-ca76-4beb-82a2-0ed25c97b037">
+      <name>ДеньНедели</name>
+      <synonym>
+        <key>ru</key>
+        <value>День недели</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ДниНедели</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="56e7f483-1c66-487f-abbe-73f76a1a3a38">
+      <name>ВремяОткрытияПоУмолчанию</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время открытия по умолчанию</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Time</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="be5062bb-e8fb-498a-b781-57bb1b1007cb">
+      <name>ВремяЗакрытияПоУмолчанию</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время закрытия по умолчанию</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Time</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Catalog>

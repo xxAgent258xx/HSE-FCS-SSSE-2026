@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6aa92614-dafd-42b2-8536-aac863874ec9">
+  <producedTypes>
+    <objectType typeId="9d2f47e5-03cf-4e5f-841a-62535cb1d13a" valueTypeId="a19610be-24ee-4b47-a652-bb48051d1e46"/>
+    <refType typeId="9e528eca-37e4-4d43-8bab-b527a3342091" valueTypeId="114758c2-675c-4f85-8c9e-33a0bc550c20"/>
+    <selectionType typeId="ff826bfc-ecf6-428b-a9ae-c5fd00309d0f" valueTypeId="fd5cb18e-c44b-4114-a9d3-727f2a990a46"/>
+    <listType typeId="b311e930-1d3f-4db5-b889-238057db5ad8" valueTypeId="236bb9d8-7cdf-416d-a15e-2247d125809a"/>
+    <managerType typeId="71679d66-685d-44fc-a2d5-0c6bddd567f6" valueTypeId="c34ae17f-7949-4748-8643-c766cbfc1b9b"/>
+  </producedTypes>
+  <name>ЗакрытиеАудитории</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрытие аудитории</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗакрытиеАудитории.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="034cb78a-0cd0-42e5-90bb-12415fee8598">
+    <name>Здание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Здание</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЗданияОрганизации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="019fd520-5531-424f-944b-09f550c7fae2">
+    <name>Аудитория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аудитория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Аудитории</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.Здание</name>
+      <field>Document.ЗакрытиеАудитории.Attribute.Здание</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0fa3d537-3298-4f6d-9302-9ad8a2503ade">
+    <name>НачалоЗакрытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало закрытия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4004b96e-af31-4e60-b9dd-6fc6b952deb3">
+    <name>КонецЗакрытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец закрытия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="af9e9e76-adf1-47a7-98ac-32e5a566e49e">
+    <name>ОснованиеЗакрытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание закрытия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="930e425d-bfc8-46ac-8055-9fb49e6dcc5d">
+    <producedTypes>
+      <objectType typeId="98178e43-b4f4-43cc-945a-6660a7b3ca42" valueTypeId="7d7cfc5c-6007-4f99-8c84-aa7e7de355d8"/>
+      <rowType typeId="1c1cc4d2-11da-4bdd-ad2f-3b395ccb30d5" valueTypeId="42b5a107-8dcb-4a81-a595-a91f928b1800"/>
+    </producedTypes>
+    <name>ИспользованиеНаМероприятиях</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использование на мероприятиях</value>
+    </synonym>
+    <attributes uuid="09a28f28-dfed-479e-8e83-6052251ab355">
+      <name>Мероприятие</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мероприятие</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7672b859-4d8d-4188-b514-c6bd730cc502">
+      <name>ВремяНачала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время начала</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="630cde7d-0a49-4ed7-9a11-a11640ba1d5c">
+      <name>ВремяОкончания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время окончания</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>

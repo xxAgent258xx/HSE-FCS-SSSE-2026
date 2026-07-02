@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f09741c9-e6eb-40f9-b0fb-23edc9cc1975">
+  <producedTypes>
+    <refType typeId="00c62b54-ec80-4a37-b2bd-8a820f7b9b71" valueTypeId="82323c81-fe61-407e-8a08-9b06b606965f"/>
+    <listType typeId="12dde8ee-6d18-470d-8ce0-62cdd8ef3797" valueTypeId="634895c7-e1b2-4184-8a29-7c1a87e1822b"/>
+    <managerType typeId="988acef6-90f8-4b61-81cb-09260e524bdf" valueTypeId="2ad1eb05-049d-4097-aa80-f6f3dddd1f61"/>
+  </producedTypes>
+  <name>ТипыАккаунтов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы аккаунтов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3700c14e-734d-493b-bafd-dbe6e9f73940">
+    <name>Администратор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администратор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32a37b90-e0f6-41f4-90e4-dfdd3c27dc97">
+    <name>Организатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организатор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cfd51273-90ab-4fe6-8f11-ff88c1ed31a6">
+    <name>Участник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Участник</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2c983e32-10c7-4491-8eef-b41348dbb0ab">
+    <name>Учащийся</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учащийся</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

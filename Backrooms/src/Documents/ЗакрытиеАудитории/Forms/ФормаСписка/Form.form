@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
   <items xsi:type="form:FormGroup">
     <name>СписокКомпоновщикНастроекПользовательскиеНастройки</name>
     <id>1</id>
@@ -48,7 +48,7 @@
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>Код</name>
+      <name>Номер</name>
       <id>16</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -56,11 +56,11 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Code</segments>
+        <segments>Список.Номер</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>КодРасширеннаяПодсказка</name>
+        <name>НомерРасширеннаяПодсказка</name>
         <id>18</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -70,7 +70,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>КодКонтекстноеМеню</name>
+        <name>НомерКонтекстноеМеню</name>
         <id>17</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -85,7 +85,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Наименование</name>
+      <name>Дата</name>
       <id>19</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -93,10 +93,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Description</segments>
+        <segments>Список.Дата</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НаименованиеРасширеннаяПодсказка</name>
+        <name>ДатаРасширеннаяПодсказка</name>
         <id>21</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -106,7 +106,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>НаименованиеКонтекстноеМеню</name>
+        <name>ДатаКонтекстноеМеню</name>
         <id>20</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -121,7 +121,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Логин</name>
+      <name>Здание</name>
       <id>22</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -129,10 +129,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Логин</segments>
+        <segments>Список.Здание</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ЛогинРасширеннаяПодсказка</name>
+        <name>ЗданиеРасширеннаяПодсказка</name>
         <id>24</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -142,7 +142,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ЛогинКонтекстноеМеню</name>
+        <name>ЗданиеКонтекстноеМеню</name>
         <id>23</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -157,7 +157,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ТипАккаунта</name>
+      <name>Аудитория</name>
       <id>25</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -165,10 +165,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.ТипАккаунта</segments>
+        <segments>Список.Аудитория</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ТипАккаунтаРасширеннаяПодсказка</name>
+        <name>АудиторияРасширеннаяПодсказка</name>
         <id>27</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -178,8 +178,80 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ТипАккаунтаКонтекстноеМеню</name>
+        <name>АудиторияКонтекстноеМеню</name>
         <id>26</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Auto</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>НачалоЗакрытия</name>
+      <id>28</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.НачалоЗакрытия</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>НачалоЗакрытияРасширеннаяПодсказка</name>
+        <id>30</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>НачалоЗакрытияКонтекстноеМеню</name>
+        <id>29</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Auto</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>КонецЗакрытия</name>
+      <id>31</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.КонецЗакрытия</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>КонецЗакрытияРасширеннаяПодсказка</name>
+        <id>33</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>КонецЗакрытияКонтекстноеМеню</name>
+        <id>32</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>LabelField</type>
@@ -196,6 +268,7 @@
       <name>СписокКоманднаяПанель</name>
       <id>5</id>
       <horizontalAlign>Left</horizontalAlign>
+      <autoFill>true</autoFill>
     </autoCommandBar>
     <searchStringAddition>
       <name>СписокСтрокаПоиска</name>
@@ -288,7 +361,6 @@
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
     <autoMaxRowsCount>true</autoMaxRowsCount>
-    <choiceMode>true</choiceMode>
     <selectionMode>MultiRow</selectionMode>
     <rowSelectionMode>Auto</rowSelectionMode>
     <header>true</header>
@@ -329,7 +401,10 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <windowOpeningMode>LockOwner</windowOpeningMode>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -353,11 +428,117 @@
     </edit>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
-      <mainTable>Catalog.Пользователи</mainTable>
+      <queryText>ВЫБРАТЬ
+	ЗакрытиеАудитории.Ссылка КАК Ссылка,
+	ЗакрытиеАудитории.ПометкаУдаления КАК ПометкаУдаления,
+	ЗакрытиеАудитории.Номер КАК Номер,
+	ЗакрытиеАудитории.Дата КАК Дата,
+	ЗакрытиеАудитории.Проведен КАК Проведен,
+	ЗакрытиеАудитории.Здание КАК Здание,
+	ЗакрытиеАудитории.Аудитория КАК Аудитория,
+	ЗакрытиеАудитории.НачалоЗакрытия КАК НачалоЗакрытия,
+	ЗакрытиеАудитории.КонецЗакрытия КАК КонецЗакрытия,
+	ЗакрытиеАудитории.ОснованиеЗакрытия КАК ОснованиеЗакрытия,
+	ЗакрытиеАудитории.Организация КАК Организация,
+	ЗакрытиеАудитории.ИспользованиеНаМероприятиях.*,
+	ЗакрытиеАудитории.МоментВремени КАК МоментВремени
+ИЗ
+	Документ.ЗакрытиеАудитории КАК ЗакрытиеАудитории
+ГДЕ
+	ЗакрытиеАудитории.Организация = &amp;Организация</queryText>
+      <mainTable>Document.ЗакрытиеАудитории</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
+      <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Ссылка</dataPath>
+        <field>Ссылка</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПометкаУдаления</dataPath>
+        <field>ПометкаУдаления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Номер</dataPath>
+        <field>Номер</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Дата</dataPath>
+        <field>Дата</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Проведен</dataPath>
+        <field>Проведен</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>МоментВремени</dataPath>
+        <field>МоментВремени</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Здание</dataPath>
+        <field>Здание</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Аудитория</dataPath>
+        <field>Аудитория</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>НачалоЗакрытия</dataPath>
+        <field>НачалоЗакрытия</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>КонецЗакрытия</dataPath>
+        <field>КонецЗакрытия</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ОснованиеЗакрытия</dataPath>
+        <field>ОснованиеЗакрытия</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Организация</dataPath>
+        <field>Организация</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИспользованиеНаМероприятиях.Ссылка</dataPath>
+        <field>ИспользованиеНаМероприятиях.Ссылка</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИспользованиеНаМероприятиях.НомерСтроки</dataPath>
+        <field>ИспользованиеНаМероприятиях.НомерСтроки</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИспользованиеНаМероприятиях.Мероприятие</dataPath>
+        <field>ИспользованиеНаМероприятиях.Мероприятие</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИспользованиеНаМероприятиях.ВремяНачала</dataPath>
+        <field>ИспользованиеНаМероприятиях.ВремяНачала</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИспользованиеНаМероприятиях.ВремяОкончания</dataPath>
+        <field>ИспользованиеНаМероприятиях.ВремяОкончания</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaNestedDataSet">
+        <dataPath>ИспользованиеНаМероприятиях</dataPath>
+        <field>ИспользованиеНаМероприятиях</field>
+      </fields>
+      <parameters>
+        <name>Организация</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Организация</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>CatalogRef.Организации</types>
+        </valueType>
+        <useRestriction>true</useRestriction>
+      </parameters>
     </extInfo>
   </attributes>
   <commandInterface>

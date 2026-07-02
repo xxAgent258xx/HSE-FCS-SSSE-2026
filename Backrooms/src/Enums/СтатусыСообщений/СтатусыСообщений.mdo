@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40e1b0f0-3aee-48c2-9c98-ad479c09af28">
+  <producedTypes>
+    <refType typeId="23f35ade-cd49-4dda-9418-7ff42840c843" valueTypeId="25e5f104-0ea9-4485-b592-5601a3228de4"/>
+    <listType typeId="b9dde8a5-069b-4464-8e8a-df39f41b555a" valueTypeId="65d4cffb-1412-41d6-afc7-67f322118cb8"/>
+    <managerType typeId="12abd259-9c74-422d-8f12-669806fd66ee" valueTypeId="0a4942f5-27bc-4b7f-9cbd-bda8f439f51f"/>
+  </producedTypes>
+  <name>СтатусыСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы сообщений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a8e6dc1c-24e8-4680-9726-82b6b41d0c16">
+    <name>Отправлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="02881b7b-1195-417a-9ce0-c3a784f1276d">
+    <name>Прочитано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочитано</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

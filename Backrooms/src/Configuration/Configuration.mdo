@@ -40,6 +40,9 @@
     <languageCode>ru</languageCode>
   </languages>
   <sessionParameters>SessionParameter.Пользователь</sessionParameters>
+  <commonForms>CommonForm.ВходВАккаунт</commonForms>
+  <commonForms>CommonForm.НачальнаяСтраница</commonForms>
+  <commonForms>CommonForm.ФормаОрганизатора</commonForms>
   <catalogs>Catalog.Аудитории</catalogs>
   <catalogs>Catalog.ЗданияОрганизации</catalogs>
   <catalogs>Catalog.Мероприятия</catalogs>

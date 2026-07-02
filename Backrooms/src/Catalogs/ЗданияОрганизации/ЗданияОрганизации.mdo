@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЗданияОрганизации.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="adea701f-6d40-44dd-a48e-23fcc8ffdbe4">
     <name>Организация</name>
     <synonym>
@@ -129,4 +130,13 @@
     </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
+  <forms uuid="613c51cb-a7b2-4ef7-acf7-5bd4caedfa78">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

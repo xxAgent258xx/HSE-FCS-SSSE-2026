@@ -38,4 +38,6 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <sessionParameters>SessionParameter.Пользователь</sessionParameters>
+  <catalogs>Catalog.Пользователи</catalogs>
 </mdclass:Configuration>

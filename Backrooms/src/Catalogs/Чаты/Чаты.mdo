@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Чаты.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="bcdc5a63-f7a9-4efe-b51f-ada2ee0aa446">
     <name>Организатор</name>
     <synonym>
@@ -133,4 +134,13 @@
     </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
+  <forms uuid="f6a10a9f-6f91-4cf6-a0a1-900534718599">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

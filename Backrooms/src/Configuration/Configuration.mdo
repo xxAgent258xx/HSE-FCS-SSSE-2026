@@ -55,6 +55,7 @@
   <documents>Document.ЗаявкаНаМероприятие</documents>
   <enums>Enum.ДниНедели</enums>
   <enums>Enum.СтатусыЗаявок</enums>
+  <enums>Enum.СтатусыМероприятий</enums>
   <enums>Enum.СтатусыСообщений</enums>
   <enums>Enum.ТипыАккаунтов</enums>
   <paletteColors>PaletteColor.Фиолетовый</paletteColors>

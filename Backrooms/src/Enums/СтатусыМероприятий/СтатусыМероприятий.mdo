@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2227f1aa-eba3-474f-a8b5-a6ab5ac3689f">
+  <producedTypes>
+    <refType typeId="f41cc14e-e1b6-4f85-b84f-7881c35ada98" valueTypeId="f9e93130-6d9e-4d5f-83b4-ffe72ddf237f"/>
+    <listType typeId="07b02ab3-761a-442d-9489-06f3d7117bd3" valueTypeId="9033e1a9-c43a-4cd2-8e22-014197a1e980"/>
+    <managerType typeId="06ed2099-c9c4-47d4-8b5f-2785101d3374" valueTypeId="e5c5d3dd-4bc5-4363-ab0b-2dfd82e73c34"/>
+  </producedTypes>
+  <name>СтатусыМероприятий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы мероприятий</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e9cb9a03-da2a-4fc9-9c3f-95b7cdf1b3d6">
+    <name>Черновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a19cfb8a-a680-4afd-bdc2-5905643d42e7">
+    <name>Опубликованное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опубликованное</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2b42a699-c687-4d20-8d26-ffa14c4c848b">
+    <name>Внутреннее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутреннее</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

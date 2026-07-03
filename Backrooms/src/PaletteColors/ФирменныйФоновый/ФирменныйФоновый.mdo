@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:PaletteColor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e7d1f0b-6fc5-409e-bbcd-a55d160e950a">
+  <name>ФирменныйФоновый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фирменный фоновый</value>
+  </synonym>
+  <color xsi:type="core:ColorDef">
+    <red>237</red>
+    <green>233</green>
+    <blue>254</blue>
+  </color>
+</mdclass:PaletteColor>

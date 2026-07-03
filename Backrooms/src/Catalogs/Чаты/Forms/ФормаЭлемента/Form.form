@@ -180,6 +180,7 @@
       <key>ru</key>
       <value>Основное</value>
     </title>
+    <readOnly>true</readOnly>
     <extendedTooltip>
       <name>ОсновноеРасширеннаяПодсказка</name>
       <id>2</id>

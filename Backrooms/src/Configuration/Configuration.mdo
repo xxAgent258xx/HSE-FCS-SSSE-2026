@@ -60,5 +60,5 @@
   <enums>Enum.СтатусыМероприятий</enums>
   <enums>Enum.СтатусыСообщений</enums>
   <enums>Enum.ТипыАккаунтов</enums>
-  <paletteColors>PaletteColor.Фиолетовый</paletteColors>
+  <paletteColors>PaletteColor.ФирменныйФиолетовый</paletteColors>
 </mdclass:Configuration>

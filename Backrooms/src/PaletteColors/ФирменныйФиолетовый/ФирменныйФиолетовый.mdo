@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:PaletteColor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f595a38d-2b1d-4213-bf01-6bb3009cefc7">
-  <name>Фиолетовый</name>
+  <name>ФирменныйФиолетовый</name>
   <synonym>
     <key>ru</key>
-    <value>Фиолетовый</value>
+    <value>Фирменный фиолетовый</value>
   </synonym>
   <color xsi:type="core:ColorDef">
     <red>139</red>

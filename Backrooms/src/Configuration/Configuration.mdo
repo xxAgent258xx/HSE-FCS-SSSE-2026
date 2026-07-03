@@ -60,4 +60,5 @@
   <enums>Enum.СтатусыСообщений</enums>
   <enums>Enum.ТипыАккаунтов</enums>
   <paletteColors>PaletteColor.ФирменныйФиолетовый</paletteColors>
+  <paletteColors>PaletteColor.ФирменныйФоновый</paletteColors>
 </mdclass:Configuration>

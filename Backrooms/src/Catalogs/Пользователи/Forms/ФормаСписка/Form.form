@@ -369,10 +369,7 @@
 	Пользователи.Предопределенный КАК Предопределенный,
 	Пользователи.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных
 ИЗ
-	Справочник.Пользователи КАК Пользователи
-ГДЕ
-	Пользователи.Организация = &amp;Организация
-	И &amp;ЭтоАдминистратор</queryText>
+	Справочник.Пользователи КАК Пользователи</queryText>
       <mainTable>Catalog.Пользователи</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
@@ -423,36 +420,6 @@
         <dataPath>Организация</dataPath>
         <field>Организация</field>
       </fields>
-      <parameters>
-        <name>ЭтоАдминистратор</name>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value>Это администратор</value>
-            </content>
-          </localValue>
-        </title>
-        <valueType>
-          <types>Boolean</types>
-        </valueType>
-        <useRestriction>true</useRestriction>
-      </parameters>
-      <parameters>
-        <name>Организация</name>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value>Организация</value>
-            </content>
-          </localValue>
-        </title>
-        <valueType>
-          <types>CatalogRef.Организации</types>
-        </valueType>
-        <useRestriction>true</useRestriction>
-      </parameters>
     </extInfo>
   </attributes>
   <commandInterface>

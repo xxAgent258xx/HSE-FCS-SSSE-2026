@@ -39,8 +39,6 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <sessionParameters>SessionParameter.Логин</sessionParameters>
-  <sessionParameters>SessionParameter.Пароль</sessionParameters>
   <sessionParameters>SessionParameter.Пользователь</sessionParameters>
   <roles>Role.Администратор</roles>
   <roles>Role.Организатор</roles>

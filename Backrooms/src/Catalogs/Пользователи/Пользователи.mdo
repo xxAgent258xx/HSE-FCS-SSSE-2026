@@ -232,4 +232,22 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="a9ed1f61-564e-4ebf-9fc2-53b7199ced90">
+    <name>ФормаВыбораУчастниковЗакрытогоМероприятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора участников закрытого мероприятия</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="13e11cd6-7223-42bb-a7fa-2d069836de35">
+    <name>ФормаВыбораОтветственныхНаМероприятие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора ответственных на мероприятие</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

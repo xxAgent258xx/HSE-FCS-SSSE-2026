@@ -131,7 +131,6 @@
           <wrap>true</wrap>
           <extendedEditMultipleValues>true</extendedEditMultipleValues>
           <chooseType>true</chooseType>
-          <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
           <textSize>Normal</textSize>
         </extInfo>

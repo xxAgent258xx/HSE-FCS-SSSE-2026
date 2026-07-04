@@ -25,4 +25,37 @@
       <handler>РегистрацияPOST</handler>
     </methods>
   </urlTemplates>
+  <urlTemplates uuid="78112609-2b2b-4bc7-a47a-c94493713672">
+    <name>Вход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вход</value>
+    </synonym>
+    <template>/login</template>
+    <methods uuid="9ddbda4e-b10f-45da-a03c-9a46ec9238d8">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ВходPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="ed860e3a-9745-46ca-87ab-1d4d6cbdde5e">
+    <name>ЛичныеМероприятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Личные мероприятия</value>
+    </synonym>
+    <template>/my_events</template>
+    <methods uuid="d17f70a7-9db5-4460-9d6a-a474a60da9cb">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ЛичныеМероприятияGET</handler>
+    </methods>
+  </urlTemplates>
 </mdclass:HTTPService>

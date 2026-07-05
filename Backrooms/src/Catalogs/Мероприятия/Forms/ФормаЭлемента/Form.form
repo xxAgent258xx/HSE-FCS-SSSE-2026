@@ -438,7 +438,7 @@
         <id>191</id>
         <title>
           <key>ru</key>
-          <value>Вводимый участник</value>
+          <value>ФИО участника</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>

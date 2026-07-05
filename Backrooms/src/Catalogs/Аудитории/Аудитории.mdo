@@ -31,6 +31,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Аудитории.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Аудитории.Form.ФормаСписка</defaultListForm>
   <attributes uuid="43bb594a-559d-4da4-ac3e-176700a99818">
     <name>Здание</name>
     <synonym>
@@ -43,6 +44,10 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.Организация</name>
+      <field>Catalog.Аудитории.Attribute.Организация</field>
+    </choiceParameterLinks>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -156,7 +161,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="25f98ba5-99f5-465b-bc1f-0ca4c1580281">
+  <attributes uuid="af223482-5d26-4755-a81c-bf0129856458">
     <name>Организация</name>
     <synonym>
       <key>ru</key>
@@ -240,6 +245,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="996d7d90-4b57-47bf-880a-c537200ac2ce">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormGroup">
     <name>Основная</name>
     <id>1</id>
@@ -25,10 +25,19 @@
       <commandName>Form.Command.ЗаявкиНаМероприятия</commandName>
       <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
+      <width>50</width>
       <autoMaxWidth>true</autoMaxWidth>
+      <height>2</height>
       <autoMaxHeight>true</autoMaxHeight>
+      <groupHorizontalAlign>Center</groupHorizontalAlign>
+      <groupVerticalAlign>Center</groupVerticalAlign>
       <placementArea>UserCmds</placementArea>
+      <backColor xsi:type="core:ColorRef">
+        <color>Palette.ФирменныйФиолетовый</color>
+      </backColor>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <cardPictureAndTitleAlign>CenterHorizontallyCenterVertically</cardPictureAndTitleAlign>
+      <showAsCard>true</showAsCard>
     </items>
     <items xsi:type="form:Button">
       <name>МероприятияОрганизации</name>
@@ -52,10 +61,19 @@
       <commandName>Form.Command.МероприятияОрганизации</commandName>
       <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
+      <width>50</width>
       <autoMaxWidth>true</autoMaxWidth>
+      <height>2</height>
       <autoMaxHeight>true</autoMaxHeight>
+      <groupHorizontalAlign>Center</groupHorizontalAlign>
+      <groupVerticalAlign>Center</groupVerticalAlign>
       <placementArea>UserCmds</placementArea>
+      <backColor xsi:type="core:ColorRef">
+        <color>Palette.ФирменныйФиолетовый</color>
+      </backColor>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <cardPictureAndTitleAlign>CenterHorizontallyCenterVertically</cardPictureAndTitleAlign>
+      <showAsCard>true</showAsCard>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -66,6 +84,8 @@
       <key>ru</key>
       <value>Основная</value>
     </title>
+    <horizontalStretch>true</horizontalStretch>
+    <verticalStretch>true</verticalStretch>
     <extendedTooltip>
       <name>ОсновнаяРасширеннаяПодсказка</name>
       <id>2</id>
@@ -79,11 +99,16 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>Vertical</group>
+      <horizontalAlign>Center</horizontalAlign>
+      <verticalAlign>Center</verticalAlign>
       <behavior>Auto</behavior>
       <representation>Auto</representation>
+      <showAsCard>true</showAsCard>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
-      <showTitle>auto</showTitle>
+      <backColor xsi:type="core:ColorRef">
+        <color>Palette.ФирменныйФоновый</color>
+      </backColor>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>

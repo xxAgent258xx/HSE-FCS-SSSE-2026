@@ -31,6 +31,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.ЗданияОрганизации.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ЗданияОрганизации.Form.ФормаСписка</defaultListForm>
   <attributes uuid="adea701f-6d40-44dd-a48e-23fcc8ffdbe4">
     <name>Организация</name>
     <synonym>
@@ -134,6 +135,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="876f9198-9b77-4fb4-b023-e2e82cc80851">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

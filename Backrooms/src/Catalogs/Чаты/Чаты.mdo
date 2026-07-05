@@ -143,4 +143,22 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="24927980-9117-47f0-bfe4-ed17a115c454">
+    <name>ФормаСпискаДляОрганизатора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка для организатора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4e255f0c-44a7-4ce4-9f8a-cea0dad702b9">
+    <name>ФормаСпискаДляУчастника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка для участника</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

@@ -44,8 +44,15 @@
   <roles>Role.Организатор</roles>
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.Участник</roles>
+  <commonModules>CommonModule.СлужбаПользователяСервер</commonModules>
   <httpServices>HTTPService.HTTPСервис</httpServices>
   <httpServices>HTTPService.ОтправкаПубличныхМероприятий</httpServices>
+  <commonForms>CommonForm.РабочийСтолАдминистратора</commonForms>
+  <commonForms>CommonForm.РабочийСтолОрганизатора</commonForms>
+  <commonForms>CommonForm.РабочийСтолУчастника</commonForms>
+  <commonForms>CommonForm.РабочийСтолУчащегося</commonForms>
+  <commonForms>CommonForm.УправлениеМероприятиями</commonForms>
+  <commonForms>CommonForm.УправлениеОрганизацией</commonForms>
   <catalogs>Catalog.Аудитории</catalogs>
   <catalogs>Catalog.ЗданияОрганизации</catalogs>
   <catalogs>Catalog.Мероприятия</catalogs>

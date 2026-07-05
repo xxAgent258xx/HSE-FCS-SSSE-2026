@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <items xsi:type="form:FormGroup">
+    <name>Основная</name>
+    <id>5</id>
+    <items xsi:type="form:Button">
+      <name>УправлениеМероприятиями</name>
+      <id>3</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>УправлениеМероприятиямиРасширеннаяПодсказка</name>
+        <id>4</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualButton</type>
+      <commandName>Form.Command.УправлениеМероприятиями</commandName>
+      <buttonImportance>Normal</buttonImportance>
+      <representation>Auto</representation>
+      <width>50</width>
+      <autoMaxWidth>true</autoMaxWidth>
+      <height>2</height>
+      <autoMaxHeight>true</autoMaxHeight>
+      <groupHorizontalAlign>Center</groupHorizontalAlign>
+      <groupVerticalAlign>Center</groupVerticalAlign>
+      <placementArea>UserCmds</placementArea>
+      <backColor xsi:type="core:ColorRef">
+        <color>Palette.ФирменныйФиолетовый</color>
+      </backColor>
+      <representationInContextMenu>Auto</representationInContextMenu>
+      <cardPictureAndTitleAlign>CenterHorizontallyCenterVertically</cardPictureAndTitleAlign>
+      <showAsCard>true</showAsCard>
+    </items>
+    <items xsi:type="form:Button">
+      <name>БыстрыйПросмотрЧатов</name>
+      <id>1</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>БыстрыйПросмотрЧатовРасширеннаяПодсказка</name>
+        <id>2</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualButton</type>
+      <commandName>Form.Command.БыстрыйПросмотрЧатов</commandName>
+      <buttonImportance>Normal</buttonImportance>
+      <representation>Auto</representation>
+      <width>50</width>
+      <autoMaxWidth>true</autoMaxWidth>
+      <height>2</height>
+      <autoMaxHeight>true</autoMaxHeight>
+      <groupHorizontalAlign>Center</groupHorizontalAlign>
+      <groupVerticalAlign>Center</groupVerticalAlign>
+      <placementArea>UserCmds</placementArea>
+      <backColor xsi:type="core:ColorRef">
+        <color>Palette.ФирменныйФиолетовый</color>
+      </backColor>
+      <representationInContextMenu>Auto</representationInContextMenu>
+      <cardPictureAndTitleAlign>CenterHorizontallyCenterVertically</cardPictureAndTitleAlign>
+      <showAsCard>true</showAsCard>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Основная</value>
+    </title>
+    <horizontalStretch>true</horizontalStretch>
+    <verticalStretch>true</verticalStretch>
+    <extendedTooltip>
+      <name>ОсновнаяРасширеннаяПодсказка</name>
+      <id>6</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <horizontalAlign>Center</horizontalAlign>
+      <verticalAlign>Center</verticalAlign>
+      <behavior>Auto</behavior>
+      <representation>Auto</representation>
+      <showAsCard>true</showAsCard>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <backColor xsi:type="core:ColorRef">
+        <color>Palette.ФирменныйФоновый</color>
+      </backColor>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <horizontalAlign>Left</horizontalAlign>
+    <autoFill>true</autoFill>
+  </autoCommandBar>
+  <saveWindowSettings>true</saveWindowSettings>
+  <autoTitle>true</autoTitle>
+  <autoUrl>true</autoUrl>
+  <group>Auto</group>
+  <autoFillCheck>true</autoFillCheck>
+  <allowFormCustomize>true</allowFormCustomize>
+  <enabled>true</enabled>
+  <showTitle>auto</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <formCommands>
+    <name>УправлениеМероприятиями</name>
+    <title>
+      <key>ru</key>
+      <value>Управление мероприятиями</value>
+    </title>
+    <id>1</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>УправлениеМероприятиями</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
+  </formCommands>
+  <formCommands>
+    <name>БыстрыйПросмотрЧатов</name>
+    <title>
+      <key>ru</key>
+      <value>Быстрый просмотр чатов</value>
+    </title>
+    <id>2</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>БыстрыйПросмотрЧатов</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
+  </formCommands>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

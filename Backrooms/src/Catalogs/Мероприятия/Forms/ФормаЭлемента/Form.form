@@ -234,7 +234,6 @@
         <representation>Auto</representation>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
-        <showTitle>auto</showTitle>
         <throughAlign>Auto</throughAlign>
         <currentRowUse>Auto</currentRowUse>
       </extInfo>
@@ -440,7 +439,6 @@
           <key>ru</key>
           <value>ФИО участника</value>
         </title>
-        <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -484,7 +482,6 @@
           <key>ru</key>
           <value>Добавить участника</value>
         </title>
-        <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>

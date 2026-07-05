@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>ru</key>
+    <value>Завершение регистрации</value>
+  </title>
   <items xsi:type="form:FormGroup">
     <name>Основное</name>
     <id>1</id>
@@ -114,6 +118,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
+      <readOnly>true</readOnly>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -244,6 +249,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
+      <readOnly>true</readOnly>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -368,10 +374,15 @@
       <showAsCard>true</showAsCard>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
+      <backColor xsi:type="core:ColorRef">
+        <color>Palette.ФирменныйФоновый</color>
+      </backColor>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
+  <commandBarLocation>Top</commandBarLocation>
+  <showCommandBar>true</showCommandBar>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -382,15 +393,48 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <handlers>
+    <event>OnClose</event>
+    <name>ПриЗакрытии</name>
+  </handlers>
+  <handlers>
+    <event>BeforeClose</event>
+    <name>ПередЗакрытием</name>
+  </handlers>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>OnReopen</event>
+    <name>ПриПовторномОткрытии</name>
+  </handlers>
+  <excludedCommands>Close</excludedCommands>
+  <excludedCommands>Delete</excludedCommands>
+  <excludedCommands>SetDeletionMark</excludedCommands>
+  <excludedCommands>Copy</excludedCommands>
+  <excludedCommands>Reread</excludedCommands>
+  <excludedCommands>CustomizeForm</excludedCommands>
+  <excludedCommands>Abort</excludedCommands>
+  <excludedCommands>OpenFromStandaloneServer</excludedCommands>
+  <excludedCommands>OpenFromMainServer</excludedCommands>
+  <excludedCommands>RestoreValues</excludedCommands>
+  <excludedCommands>SaveValues</excludedCommands>
+  <excludedCommands>Retry</excludedCommands>
+  <excludedCommands>Ignore</excludedCommands>
+  <excludedCommands>Cancel</excludedCommands>
+  <excludedCommands>ShowInList</excludedCommands>
+  <excludedCommands>Yes</excludedCommands>
+  <excludedCommands>No</excludedCommands>
+  <excludedCommands>OK</excludedCommands>
   <windowOpeningMode>LockOwner</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
-  <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Auto</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
-  <showTitle>auto</showTitle>
+  <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>

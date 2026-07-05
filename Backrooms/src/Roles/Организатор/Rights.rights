@@ -4,6 +4,25 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>Catalog.Чаты</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ЗданияОрганизации.TabularSection.ВремяРаботыПоУмолчанию.Attribute.ВремяОткрытияПоУмолчанию</name>
 		<right>
 			<name>Edit</name>
@@ -92,6 +111,13 @@
 		</right>
 	</object>
 	<object>
+		<name>SessionParameter.Пользователь</name>
+		<right>
+			<name>Get</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ЗданияОрганизации.Attribute.Город</name>
 		<right>
 			<name>Edit</name>
@@ -152,7 +178,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Мероприятия</name>
+		<name>Document.ЗаявкаНаМероприятие</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -166,11 +192,42 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UndoPosting</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>View</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveInsert</name>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractivePosting</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Мероприятия</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -179,10 +236,35 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.УправлениеМероприятиями</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ЗданияОрганизации.TabularSection.ВремяРаботыПоУмолчанию</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.РабочийСтолОрганизатора</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Распределения</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>

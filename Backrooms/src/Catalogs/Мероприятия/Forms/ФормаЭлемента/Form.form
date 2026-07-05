@@ -427,7 +427,6 @@
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
-        <horizontalStretch>true</horizontalStretch>
         <placementArea>UserCmds</placementArea>
         <backColor xsi:type="core:ColorRef">
           <color>Palette.ФирменныйФиолетовый</color>

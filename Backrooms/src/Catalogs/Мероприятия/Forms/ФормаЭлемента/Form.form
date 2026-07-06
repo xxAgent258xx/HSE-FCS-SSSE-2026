@@ -260,6 +260,7 @@
             <key>ru</key>
             <value>Левая колонка</value>
           </title>
+          <groupHorizontalAlign>Center</groupHorizontalAlign>
           <extendedTooltip>
             <name>ЛеваяКолонкаРасширеннаяПодсказка</name>
             <id>259</id>
@@ -273,6 +274,7 @@
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>Vertical</group>
+            <horizontalAlign>Left</horizontalAlign>
             <behavior>Auto</behavior>
             <representation>Auto</representation>
             <showLeftMargin>true</showLeftMargin>
@@ -462,6 +464,7 @@
             <key>ru</key>
             <value>Правая колонка</value>
           </title>
+          <groupHorizontalAlign>Center</groupHorizontalAlign>
           <extendedTooltip>
             <name>ПраваяКолонкаРасширеннаяПодсказка</name>
             <id>261</id>
@@ -475,6 +478,7 @@
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>Vertical</group>
+            <horizontalAlign>Left</horizontalAlign>
             <behavior>Auto</behavior>
             <representation>Auto</representation>
             <showLeftMargin>true</showLeftMargin>
@@ -492,6 +496,7 @@
           <key>ru</key>
           <value>Группа колонок</value>
         </title>
+        <horizontalStretch>true</horizontalStretch>
         <extendedTooltip>
           <name>ГруппаКолонокРасширеннаяПодсказка</name>
           <id>265</id>
@@ -505,8 +510,10 @@
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <group>AlwaysHorizontal</group>
+          <horizontalAlign>Center</horizontalAlign>
           <behavior>Auto</behavior>
           <representation>Auto</representation>
+          <showAsCard>true</showAsCard>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
@@ -683,6 +690,10 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:PlannerFieldExtInfo">
+          <handlers>
+            <event>BeforeDelete</event>
+            <name>ПланировкаПередУдалением</name>
+          </handlers>
           <width>50</width>
           <autoMaxWidth>true</autoMaxWidth>
           <height>10</height>
@@ -1268,6 +1279,10 @@
           <horizontalAlign>Left</horizontalAlign>
           <autoFill>true</autoFill>
         </autoCommandBar>
+        <handlers>
+          <event>BeforeDeleteRow</event>
+          <name>РаспределенияПередУдалением</name>
+        </handlers>
         <handlers>
           <event>OnChange</event>
           <name>РаспределенияПриИзменении</name>

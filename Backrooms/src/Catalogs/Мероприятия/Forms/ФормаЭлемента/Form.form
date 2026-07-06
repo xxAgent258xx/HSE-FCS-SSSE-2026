@@ -613,6 +613,9 @@
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Auto</group>
         <showTitle>auto</showTitle>
+        <backColor xsi:type="core:ColorRef">
+          <color>Palette.ФирменныйФоновый</color>
+        </backColor>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -647,6 +650,46 @@
           <color>Palette.ФирменныйФиолетовый</color>
         </backColor>
         <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>Планировка</name>
+        <id>281</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Планировка</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>ПланировкаРасширеннаяПодсказка</name>
+          <id>283</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ПланировкаКонтекстноеМеню</name>
+          <id>282</id>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>PlannerField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:PlannerFieldExtInfo">
+          <width>50</width>
+          <autoMaxWidth>true</autoMaxWidth>
+          <height>10</height>
+          <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>true</horizontalStretch>
+          <verticalStretch>true</verticalStretch>
+        </extInfo>
       </items>
       <items xsi:type="form:Table">
         <name>МоиРаспределения</name>
@@ -1225,6 +1268,10 @@
           <horizontalAlign>Left</horizontalAlign>
           <autoFill>true</autoFill>
         </autoCommandBar>
+        <handlers>
+          <event>OnChange</event>
+          <name>РаспределенияПриИзменении</name>
+        </handlers>
         <searchStringAddition>
           <name>РаспределенияСтрокаПоиска</name>
           <id>50</id>
@@ -1360,6 +1407,9 @@
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Auto</group>
         <showTitle>auto</showTitle>
+        <backColor xsi:type="core:ColorRef">
+          <color>Palette.ФирменныйФоновый</color>
+        </backColor>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -1750,6 +1800,9 @@
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Auto</group>
         <showTitle>auto</showTitle>
+        <backColor xsi:type="core:ColorRef">
+          <color>Palette.ФирменныйФоновый</color>
+        </backColor>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -1961,6 +2014,24 @@
     <edit>
       <common>true</common>
     </edit>
+  </attributes>
+  <attributes>
+    <name>Планировка</name>
+    <title>
+      <key>ru</key>
+      <value>Планировка</value>
+    </title>
+    <id>10</id>
+    <valueType>
+      <types>Planner</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <extInfo xsi:type="form:PlannerExtInfo"/>
   </attributes>
   <formCommands>
     <name>ЧатСГлавным</name>

@@ -590,6 +590,7 @@
             <extendedEditMultipleValues>true</extendedEditMultipleValues>
             <chooseType>true</chooseType>
             <textEdit>true</textEdit>
+            <choiceForm>Catalog.Пользователи.Form.ФормаВыбораУчастниковЗакрытогоМероприятия</choiceForm>
             <textSize>Normal</textSize>
           </extInfo>
         </items>

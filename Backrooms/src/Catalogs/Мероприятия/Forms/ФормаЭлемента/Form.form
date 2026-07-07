@@ -1692,6 +1692,10 @@
           <event>OnActivateRow</event>
           <name>СписокУчастниковПриАктивизацииСтроки</name>
         </handlers>
+        <handlers>
+          <event>OnChange</event>
+          <name>СписокУчастниковПриИзменении</name>
+        </handlers>
         <searchStringAddition>
           <name>СписокУчастниковСтрокаПоиска</name>
           <id>29</id>

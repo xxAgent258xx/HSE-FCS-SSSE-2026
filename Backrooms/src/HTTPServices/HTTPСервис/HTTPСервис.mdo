@@ -58,4 +58,21 @@
       <handler>ЛичныеМероприятияGET</handler>
     </methods>
   </urlTemplates>
+  <urlTemplates uuid="1b8aa160-b086-43fc-aa30-3d7d6d10f606">
+    <name>ЗаписьНаМероприятие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись на мероприятие</value>
+    </synonym>
+    <template>/join_event</template>
+    <methods uuid="38c59064-17c0-4e36-af31-f5ce38b2d2f2">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ЗаписьНаМероприятиеPOST</handler>
+    </methods>
+  </urlTemplates>
 </mdclass:HTTPService>

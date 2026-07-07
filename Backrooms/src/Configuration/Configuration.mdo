@@ -48,6 +48,7 @@
   <commonModules>CommonModule.СлужбаПользователяСервер</commonModules>
   <httpServices>HTTPService.HTTPСервис</httpServices>
   <httpServices>HTTPService.ОтправкаПубличныхМероприятий</httpServices>
+  <commonForms>CommonForm.ЕдинаяСистемаАдминистратора</commonForms>
   <commonForms>CommonForm.РабочийСтолАдминистратора</commonForms>
   <commonForms>CommonForm.РабочийСтолОрганизатора</commonForms>
   <commonForms>CommonForm.РабочийСтолУчастника</commonForms>

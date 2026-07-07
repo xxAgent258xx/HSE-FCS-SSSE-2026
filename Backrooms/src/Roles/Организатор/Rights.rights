@@ -104,6 +104,44 @@
 		</right>
 	</object>
 	<object>
+		<name>HTTPService.HTTPСервис.URLTemplate.Регистрация.Method.POST</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Пользователи</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ЗданияОрганизации.TabularSection.ВремяРаботыПоУмолчанию.Attribute.ДеньНедели</name>
 		<right>
 			<name>Edit</name>
@@ -114,6 +152,13 @@
 		<name>SessionParameter.Пользователь</name>
 		<right>
 			<name>Get</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>HTTPService.HTTPСервис.URLTemplate.Вход.Method.POST</name>
+		<right>
+			<name>Use</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -139,6 +184,14 @@
 		</right>
 		<right>
 			<name>WebClient</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ThickClient</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ExternalConnection</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -169,12 +222,27 @@
 			<name>SaveUserData</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>ConfigurationExtensionsAdministration</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveOpenExtDataProcessors</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Catalog.ЗданияОрганизации.TabularSection.ВремяРаботыПоУмолчанию.Attribute.ВремяЗакрытияПоУмолчанию</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>HTTPService.HTTPСервис.URLTemplate.ЛичныеМероприятия.Method.GET</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -192,10 +260,6 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>Delete</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>Posting</name>
 			<value>true</value>
 		</right>
@@ -205,6 +269,10 @@
 		</right>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -239,6 +307,13 @@
 		<name>CommonForm.УправлениеМероприятиями</name>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>HTTPService.ОтправкаПубличныхМероприятий.URLTemplate.ОтправкаПубличных.Method.GET</name>
+		<right>
+			<name>Use</name>
 			<value>true</value>
 		</right>
 	</object>

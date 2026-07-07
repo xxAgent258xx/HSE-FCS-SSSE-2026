@@ -51,7 +51,6 @@
   <commonForms>CommonForm.РабочийСтолАдминистратора</commonForms>
   <commonForms>CommonForm.РабочийСтолОрганизатора</commonForms>
   <commonForms>CommonForm.РабочийСтолУчастника</commonForms>
-  <commonForms>CommonForm.РабочийСтолУчащегося</commonForms>
   <commonForms>CommonForm.УправлениеМероприятиями</commonForms>
   <commonForms>CommonForm.УправлениеОрганизацией</commonForms>
   <catalogs>Catalog.Аудитории</catalogs>

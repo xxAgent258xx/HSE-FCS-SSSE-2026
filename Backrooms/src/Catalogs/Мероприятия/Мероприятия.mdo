@@ -31,7 +31,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Мероприятия.Form.ФормаЭлемента</defaultObjectForm>
-  <defaultListForm>Catalog.Мероприятия.Form.ФормаСпискаАдминИОрг</defaultListForm>
+  <defaultListForm>Catalog.Мероприятия.Form.ФормаСпискаОбщий</defaultListForm>
   <attributes uuid="b0cde77c-fd0b-493e-afe8-128a71e2a4cf">
     <name>Организация</name>
     <synonym>
@@ -319,6 +319,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма списка админ и орг</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a2c1fd6e-63eb-477b-96b2-b4926b8c0a89">
+    <name>ФормаСпискаОбщий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка общий</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

@@ -117,42 +117,6 @@
         <cardPictureAndTitleAlign>CenterHorizontallyCenterVertically</cardPictureAndTitleAlign>
         <showAsCard>true</showAsCard>
       </items>
-      <items xsi:type="form:Button">
-        <name>МероприятияОрганизации2</name>
-        <id>31</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>МероприятияОрганизации2РасширеннаяПодсказка</name>
-          <id>32</id>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <type>UsualButton</type>
-        <commandName>Form.Command.ВременноеЗакрытие</commandName>
-        <buttonImportance>Normal</buttonImportance>
-        <representation>Auto</representation>
-        <width>50</width>
-        <autoMaxWidth>true</autoMaxWidth>
-        <height>2</height>
-        <autoMaxHeight>true</autoMaxHeight>
-        <groupHorizontalAlign>Center</groupHorizontalAlign>
-        <groupVerticalAlign>Center</groupVerticalAlign>
-        <placementArea>UserCmds</placementArea>
-        <backColor xsi:type="core:ColorRef">
-          <color>Palette.ФирменныйФиолетовый</color>
-        </backColor>
-        <representationInContextMenu>Auto</representationInContextMenu>
-        <cardPictureAndTitleAlign>CenterHorizontallyCenterVertically</cardPictureAndTitleAlign>
-        <showAsCard>true</showAsCard>
-      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

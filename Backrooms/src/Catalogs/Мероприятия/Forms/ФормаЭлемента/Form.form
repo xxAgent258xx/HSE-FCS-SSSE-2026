@@ -516,6 +516,9 @@
           <showAsCard>true</showAsCard>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
+          <backColor xsi:type="core:ColorRef">
+            <color>Palette.ФирменныйФоновый</color>
+          </backColor>
           <throughAlign>Auto</throughAlign>
           <currentRowUse>Auto</currentRowUse>
         </extInfo>
@@ -707,7 +710,6 @@
           <autoMaxWidth>true</autoMaxWidth>
           <height>20</height>
           <autoMaxHeight>true</autoMaxHeight>
-          <maxHeight>20</maxHeight>
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
         </extInfo>

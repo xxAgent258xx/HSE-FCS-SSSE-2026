@@ -669,6 +669,11 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Планировка</segments>
         </dataPath>
+        <titleLocation>None</titleLocation>
+        <handlers>
+          <event>OnChange</event>
+          <name>ПланировкаПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ПланировкаРасширеннаяПодсказка</name>
           <id>283</id>
@@ -691,13 +696,18 @@
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:PlannerFieldExtInfo">
           <handlers>
+            <event>OnEditEnd</event>
+            <name>ПланировкаПриОкончанииРедактирования</name>
+          </handlers>
+          <handlers>
             <event>BeforeDelete</event>
             <name>ПланировкаПередУдалением</name>
           </handlers>
           <width>50</width>
           <autoMaxWidth>true</autoMaxWidth>
-          <height>10</height>
+          <height>20</height>
           <autoMaxHeight>true</autoMaxHeight>
+          <maxHeight>20</maxHeight>
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
         </extInfo>
@@ -1377,12 +1387,14 @@
         <changeRowOrder>true</changeRowOrder>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
+        <heightInTableRows>4</heightInTableRows>
+        <heightControlVariant>InTableRows</heightControlVariant>
         <autoMaxRowsCount>true</autoMaxRowsCount>
+        <maxRowsCount>5</maxRowsCount>
         <selectionMode>MultiRow</selectionMode>
         <rowSelectionMode>Auto</rowSelectionMode>
         <header>true</header>
         <headerHeight>1</headerHeight>
-        <footerHeight>1</footerHeight>
         <horizontalScrollBar>AutoUse</horizontalScrollBar>
         <verticalScrollBar>AutoUse</verticalScrollBar>
         <horizontalLines>true</horizontalLines>
@@ -1679,6 +1691,10 @@
         <handlers>
           <event>OnActivateRow</event>
           <name>СписокУчастниковПриАктивизацииСтроки</name>
+        </handlers>
+        <handlers>
+          <event>OnChange</event>
+          <name>СписокУчастниковПриИзменении</name>
         </handlers>
         <searchStringAddition>
           <name>СписокУчастниковСтрокаПоиска</name>

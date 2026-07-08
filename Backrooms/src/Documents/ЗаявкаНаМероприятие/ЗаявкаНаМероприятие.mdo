@@ -164,8 +164,9 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:ReferenceValue">
-      <value>Enum.СтатусыЗаявок.EnumValue.НаРассмотрении</value>
+      <value>Enum.СтатусыЗаявок.EnumValue.Черновик</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>

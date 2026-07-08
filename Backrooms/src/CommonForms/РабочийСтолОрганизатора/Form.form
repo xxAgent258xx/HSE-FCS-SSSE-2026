@@ -3,6 +3,48 @@
   <items xsi:type="form:FormGroup">
     <name>Основная</name>
     <id>5</id>
+    <items xsi:type="form:Decoration">
+      <name>Декорация2</name>
+      <id>7</id>
+      <title>
+        <key>ru</key>
+        <value>Действия</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>Декорация2РасширеннаяПодсказка</name>
+        <id>9</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>Декорация2КонтекстноеМеню</name>
+        <id>8</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>Label</type>
+      <width>50</width>
+      <autoMaxWidth>true</autoMaxWidth>
+      <height>1</height>
+      <autoMaxHeight>true</autoMaxHeight>
+      <font xsi:type="core:FontRef">
+        <font>Style.TextLevel1</font>
+        <height>28.0</height>
+        <bold>true</bold>
+      </font>
+      <groupHorizontalAlign>Center</groupHorizontalAlign>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Center</horizontalAlign>
+      </extInfo>
+    </items>
     <items xsi:type="form:Button">
       <name>УправлениеМероприятиями</name>
       <id>3</id>
@@ -84,8 +126,12 @@
       <key>ru</key>
       <value>Основная</value>
     </title>
-    <horizontalStretch>true</horizontalStretch>
-    <verticalStretch>true</verticalStretch>
+    <width>50</width>
+    <height>6</height>
+    <horizontalStretch>false</horizontalStretch>
+    <verticalStretch>false</verticalStretch>
+    <groupHorizontalAlign>Center</groupHorizontalAlign>
+    <groupVerticalAlign>Center</groupVerticalAlign>
     <extendedTooltip>
       <name>ОсновнаяРасширеннаяПодсказка</name>
       <id>6</id>
@@ -113,11 +159,87 @@
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
+  <items xsi:type="form:FormGroup">
+    <name>Группа1</name>
+    <id>12</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа1</value>
+    </title>
+    <extendedTooltip>
+      <name>Группа1РасширеннаяПодсказка</name>
+      <id>13</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Auto</group>
+      <behavior>Auto</behavior>
+      <representation>Auto</representation>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <showTitle>auto</showTitle>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:Button">
+    <name>СменитьПользователя</name>
+    <id>10</id>
+    <title>
+      <key>ru</key>
+      <value>Сменить пользователя ❌</value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>СменитьПользователяРасширеннаяПодсказка</name>
+      <id>11</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualButton</type>
+    <commandName>Form.Command.Команда1</commandName>
+    <buttonImportance>Normal</buttonImportance>
+    <representation>Auto</representation>
+    <width>25</width>
+    <autoMaxWidth>true</autoMaxWidth>
+    <height>2</height>
+    <autoMaxHeight>true</autoMaxHeight>
+    <groupHorizontalAlign>Center</groupHorizontalAlign>
+    <groupVerticalAlign>Bottom</groupVerticalAlign>
+    <placementArea>UserCmds</placementArea>
+    <backColor xsi:type="core:ColorDef">
+      <red>244</red>
+      <green>63</green>
+      <blue>94</blue>
+    </backColor>
+    <representationInContextMenu>Auto</representationInContextMenu>
+    <pictureLocation>Left</pictureLocation>
+    <cardPictureAndTitleAlign>CenterHorizontallyCenterVertically</cardPictureAndTitleAlign>
+    <showAsCard>true</showAsCard>
+  </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <horizontalAlign>Left</horizontalAlign>
-    <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
     <event>BeforeClose</event>
@@ -127,6 +249,8 @@
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Auto</group>
+  <horizontalAlign>Center</horizontalAlign>
+  <verticalAlign>Center</verticalAlign>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
@@ -163,6 +287,20 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>БыстрыйПросмотрЧатов</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
+  </formCommands>
+  <formCommands>
+    <name>Команда1</name>
+    <id>3</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>Команда1</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

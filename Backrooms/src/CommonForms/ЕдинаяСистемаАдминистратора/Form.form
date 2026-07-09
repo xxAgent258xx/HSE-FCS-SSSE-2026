@@ -277,6 +277,8 @@
         <key>ru</key>
         <value>Группа2</value>
       </title>
+      <width>50</width>
+      <height>15</height>
       <groupHorizontalAlign>Center</groupHorizontalAlign>
       <extendedTooltip>
         <name>Группа2РасширеннаяПодсказка</name>
